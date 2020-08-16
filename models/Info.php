@@ -50,7 +50,7 @@ class Info extends Model
     public $rules = [
         'icon' => 'required|string|max:191',
         'title' => 'required|string|max:191',
-        'value' => 'required|string|url|max:191'
+        'value' => 'required|string|max:191'
     ];
 
     /**
