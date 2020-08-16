@@ -1,0 +1,12 @@
+<?php Block::put('breadcrumb') ?>
+    <ul>
+        <li>
+            <a href="<?= Backend::url('magiczne/resume/experience') ?>">
+                <?= e(trans('magiczne.resume::lang.menu.experience')) ?>
+            </a>
+        </li>
+        <li><?= e($this->pageTitle) ?></li>
+    </ul>
+<?php Block::endPut() ?>
+
+<?= $this->reorderRender() ?>

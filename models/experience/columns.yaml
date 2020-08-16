@@ -1,0 +1,11 @@
+columns:
+    time_period:
+        label: 'magiczne.resume::lang.fields.time_period'
+        type: text
+        searchable: true
+        sortable: true
+    content:
+        label: 'magiczne.resume::lang.fields.content'
+        type: text
+        searchable: true
+        sortable: false

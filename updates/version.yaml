@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin'
+1.0.2:
+    - create_magiczne_resume_education_table.php
+    - create_magiczne_resume_experience_table.php
+    - create_magiczne_resume_languages_table.php
+    - create_magiczne_resume_socials_table.php
+    - create_magiczne_resume_info_table.php

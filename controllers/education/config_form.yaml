@@ -1,0 +1,21 @@
+name: 'magiczne.resume::lang.menu.education'
+form: $/magiczne/resume/models/education/fields.yaml
+modelClass: Magiczne\Resume\Models\Education
+
+defaultRedirect: magiczne/resume/education
+
+create:
+    title: backend::lang.form.create
+    redirect: 'magiczne/resume/education/update/:id'
+    redirectClose: magiczne/resume/education
+    flashSave: 'magiczne.resume::lang.messages.created'
+
+update:
+    title: 'magiczne.resume::lang.form.edit'
+    redirect: magiczne/resume/education
+    redirectClose: magiczne/resume/education
+    flashSave: 'magiczne.resume::lang.messages.updated'
+    flashDelete: 'magiczne.resume::lang.messages.deleted'
+
+preview:
+    title: 'magiczne.resume::lang.form.preview'

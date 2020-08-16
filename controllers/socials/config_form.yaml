@@ -1,0 +1,21 @@
+name: 'magiczne.resume::lang.menu.socials'
+form: $/magiczne/resume/models/social/fields.yaml
+modelClass: Magiczne\Resume\Models\Social
+
+defaultRedirect: magiczne/resume/socials
+
+create:
+    title: backend::lang.form.create
+    redirect: 'magiczne/resume/socials/update/:id'
+    redirectClose: magiczne/resume/socials
+    flashSave: 'magiczne.resume::lang.messages.created'
+
+update:
+    title: 'magiczne.resume::lang.form.edit'
+    redirect: magiczne/resume/socials
+    redirectClose: magiczne/resume/socials
+    flashSave: 'magiczne.resume::lang.messages.updated'
+    flashDelete: 'magiczne.resume::lang.messages.deleted'
+
+preview:
+    title: 'magiczne.resume::lang.form.preview'

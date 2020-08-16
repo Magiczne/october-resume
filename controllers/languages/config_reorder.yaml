@@ -1,0 +1,11 @@
+# ===================================
+#  Reorder Behavior Config
+# ===================================
+
+title: 'backend::lang.reorder.default_title'
+modelClass: Magiczne\Resume\Models\Language
+
+nameFrom: language
+
+toolbar:
+    buttons: reorder_toolbar

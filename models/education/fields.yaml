@@ -1,0 +1,11 @@
+fields:
+    time_period:
+        label: 'magiczne.resume::lang.fields.time_period'
+        span: full
+        required: true
+        type: text
+    content:
+        label: 'magiczne.resume::lang.fields.content'
+        span: full
+        required: true
+        type: richeditor

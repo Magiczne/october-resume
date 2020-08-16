@@ -1,0 +1,19 @@
+# ===================================
+#  List Behavior Config
+# ===================================
+
+title: magiczne.resume::lang.menu.experience
+list: $/magiczne/resume/models/experience/columns.yaml
+modelClass: Magiczne\Resume\Models\Experience
+recordUrl: 'magiczne/resume/experience/update/:id'
+
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+noRecordsMessage: 'backend::lang.list.no_records'
+
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+

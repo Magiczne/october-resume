@@ -1,0 +1,11 @@
+fields:
+    language:
+        label: 'magiczne.resume::lang.fields.language'
+        span: full
+        required: true
+        type: text
+    description:
+        label: 'magiczne.resume::lang.fields.description'
+        span: full
+        required: true
+        type: text

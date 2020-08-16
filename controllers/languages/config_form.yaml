@@ -1,0 +1,21 @@
+name: 'magiczne.resume::lang.menu.languages'
+form: $/magiczne/resume/models/language/fields.yaml
+modelClass: Magiczne\Resume\Models\Language
+
+defaultRedirect: magiczne/resume/languages
+
+create:
+    title: backend::lang.form.create
+    redirect: 'magiczne/resume/languages/update/:id'
+    redirectClose: magiczne/resume/languages
+    flashSave: 'magiczne.resume::lang.messages.created'
+
+update:
+    title: 'magiczne.resume::lang.form.edit'
+    redirect: magiczne/resume/languages
+    redirectClose: magiczne/resume/languages
+    flashSave: 'magiczne.resume::lang.messages.updated'
+    flashDelete: 'magiczne.resume::lang.messages.deleted'
+
+preview:
+    title: 'magiczne.resume::lang.form.preview'

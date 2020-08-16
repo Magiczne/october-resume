@@ -1,0 +1,17 @@
+columns:
+    icon:
+        label: 'magiczne.resume::lang.fields.icon'
+        type: text
+    title:
+        label: 'magiczne.resume::lang.fields.title'
+        type: text
+        searchable: true
+        sortable: true
+    value:
+        label: 'magiczne.resume::lang.fields.value'
+        type: text
+        searchable: true
+        sortable: false
+    mail:
+        label: 'magiczne.resume::lang.fields.mail'
+        type: switch

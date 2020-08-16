@@ -1,0 +1,39 @@
+plugin:
+    code: Magiczne.Resume
+    name: magiczne.resume::lang.plugin.name
+    description: magiczne.resume::lang.plugin.description
+    author: Michał Kleszczyński
+    icon: icon-id-card
+    homepage: https://github.com/Magiczne/october-resume
+permissions:
+    magiczne.resume.manage-resume:
+        tab: magiczne.resume::lang.plugin.name
+        label: magiczne.resume::lang.permissions.manage-resume
+navigation:
+    resume:
+        label: magiczne.resume::lang.plugin.name
+        url: magiczne/resume/education
+        icon: icon-id-card
+        permissions:
+            - magiczne.resume.manage-resume
+        sideMenu:
+            education:
+                label: magiczne.resume::lang.menu.education
+                url: magiczne/resume/education
+                icon: icon-tasks
+            experience:
+                label: magiczne.resume::lang.menu.experience
+                url: magiczne/resume/experience
+                icon: icon-tasks
+            info:
+                label: magiczne.resume::lang.menu.info
+                url: magiczne/resume/info
+                icon: icon-tags
+            socials:
+                label: magiczne.resume::lang.menu.socials
+                url: magiczne/resume/socials
+                icon: icon-comment
+            languages:
+                label: magiczne.resume::lang.menu.languages
+                url: magiczne/resume/languages
+                icon: icon-language

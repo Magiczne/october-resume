@@ -1,0 +1,16 @@
+fields:
+    icon:
+        label: 'magiczne.resume::lang.fields.icon'
+        span: full
+        required: true
+        type: text
+    name:
+        label: 'magiczne.resume::lang.fields.social_name'
+        span: full
+        required: true
+        type: text
+    url:
+        label: 'magiczne.resume::lang.fields.url'
+        span: full
+        required: true
+        type: text

@@ -1,0 +1,21 @@
+name: 'magiczne.resume::lang.menu.experience'
+form: $/magiczne/resume/models/experience/fields.yaml
+modelClass: Magiczne\Resume\Models\Experience
+
+defaultRedirect: magiczne/resume/experience
+
+create:
+    title: backend::lang.form.create
+    redirect: 'magiczne/resume/experience/update/:id'
+    redirectClose: magiczne/resume/experience
+    flashSave: 'magiczne.resume::lang.messages.created'
+
+update:
+    title: 'magiczne.resume::lang.form.edit'
+    redirect: magiczne/resume/experience
+    redirectClose: magiczne/resume/experience
+    flashSave: 'magiczne.resume::lang.messages.updated'
+    flashDelete: 'magiczne.resume::lang.messages.deleted'
+
+preview:
+    title: 'magiczne.resume::lang.form.preview'
