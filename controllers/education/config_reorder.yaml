@@ -3,7 +3,7 @@
 # ===================================
 
 title: 'backend::lang.reorder.default_title'
-modelClass: Magiczne\Resume\Models\Experience
+modelClass: Magiczne\Resume\Models\Education
 
 nameFrom: time_period
 
