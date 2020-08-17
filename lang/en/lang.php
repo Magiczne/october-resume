@@ -2,6 +2,10 @@
 
 return [
     'components' => [
+        'person_name' => [
+            'name' => 'Person name',
+            'description' => 'Access person name from plugin settings'
+        ],
         'resume' => [
             'name' => 'Resume',
             'description' => 'Display your resume'

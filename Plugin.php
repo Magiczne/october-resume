@@ -1,5 +1,6 @@
 <?php namespace Magiczne\Resume;
 
+use Magiczne\Resume\Components\PersonName;
 use Magiczne\Resume\Components\Resume;
 use Magiczne\Resume\Models\Settings;
 use System\Classes\PluginBase;
@@ -9,6 +10,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
+            PersonName::class => 'PersonName',
             Resume::class => 'Resume'
         ];
     }

@@ -2,6 +2,10 @@
 
 return [
     'components' => [
+        'person_name' => [
+            'name' => 'Imię i nazwisko',
+            'description' => 'Uzyskaj dostęp do imienia i nazwiska podanego w ustawieniach'
+        ],
         'resume' => [
             'name' => 'CV',
             'description' => 'Wyświetl CV'
