@@ -1,0 +1,70 @@
+<article class="resume">
+    <header class="resume-header">
+        <h1 class="resume-title">{{ __SELF__.settings('name') }}</h1>
+    </header>
+    <section class="resume-content">
+        <h3>Info</h3>
+        <ul>
+            {% for info in __SELF__.info %}
+                <li>
+                    <i class="icon {{ info.icon }}" aria-hidden="true"></i>
+                    <h5>{{ info.title }}</h5>
+                    {% if info.mail %}
+                        <a href="mailto:{{ info.value }}"
+                           rel="noreferrer noopener">
+                            {{ info.value }}
+                        </a>
+                    {% else %}
+                        <span>{{ info.value }}</span>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+
+        <h3>Socials</h3>
+        <ul>
+            {% for social in __SELF__.socials %}
+            <li>
+                <i class="icon {{ social.icon }}" aria-hidden="true"></i>
+                <h5>{{ social.name }}</h5>
+                <a href="{{ social.url }}" target="_blank" rel="noreferrer noopener">
+                    {{ social.url }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+
+        <h3>Languages</h3>
+        <ul>
+            {% for lang in __SELF__.languages %}
+            <li>
+                <h5>{{ lang.language }}</h5>
+                <span>{{ lang.description }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+
+        <h3>Education</h3>
+        <ul>
+            {% for entry in __SELF__.education %}
+            <li>
+                <h5>{{ entry.time_period }}</h5>
+                {{ entry.content | raw }}
+            </li>
+            {% endfor %}
+        </ul>
+
+        <h3>Experience</h3>
+        <ul>
+            {% for entry in __SELF__.experience %}
+            <li>
+                <h5>{{ entry.time_period }}</h5>
+                {{ entry.content | raw }}
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+    <footer class="resume-footer">
+        <p class="resume-gdpr">{{ __SELF__.settings('gdpr') }}</p>
+    </footer>
+</article>

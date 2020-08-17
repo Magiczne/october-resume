@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'components' => [
+        'resume' => [
+            'name' => 'CV',
+            'description' => 'Wyświetl CV'
+        ]
+    ],
     'fields' => [
         'content' => 'Treść',
         'description' => 'Opis',
