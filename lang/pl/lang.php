@@ -35,5 +35,20 @@ return [
     ],
     'permissions' => [
         'manage-resume' => 'Zarządzaj CV'
+    ],
+    'settings' => [
+        'fields' => [
+            'name' => [
+                'label' => 'Imię i nazwisko',
+                'comment' => 'Podaj imię i nazwisko, które będzie się wyświetlać w CV'
+            ],
+            'gdpr' => [
+                'label' => 'Zgoda na przetwarzanie danych osobowych',
+                'comment' => 'Wprowadź treść zgody dotyczącej przetwarzania danych osobowych, która będzie się wyświetlać w CV'
+            ]
+        ],
+        'tabs' => [
+            'general' => 'Ogólne'
+        ]
     ]
 ];

@@ -1,0 +1,12 @@
+tabs:
+    fields:
+        name:
+            label: magiczne.resume::lang.settings.fields.name.label
+            comment: magiczne.resume::lang.settings.fields.name.comment
+            type: text
+            tab: magiczne.resume::lang.settings.tabs.general
+        gdpr:
+            label: magiczne.resume::lang.settings.fields.gdpr.label
+            comment: magiczne.resume::lang.settings.fields.gdpr.comment
+            type: textarea
+            tab: magiczne.resume::lang.settings.tabs.general
