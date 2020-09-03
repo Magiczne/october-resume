@@ -40,7 +40,7 @@ class Resume extends ComponentBase
 
     public function settings(string $key)
     {
-        return Settings::get($key);
+        return Settings::instance()->getAttributeTranslated($key);
     }
 
     public function socials()
