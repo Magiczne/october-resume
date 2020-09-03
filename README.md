@@ -3,6 +3,8 @@
 ## Information
 This is a basic plugin that allows creation of Resume in the OctoberCMS.
 
+> **No styles included with this plugin! Only basic template that shows possible ways to interact with data.**
+
 ## Features
 Plugin adds backend menu that allows editing data in 5 categories:
 - Education
