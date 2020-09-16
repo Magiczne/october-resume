@@ -1,14 +1,12 @@
 <?php namespace Magiczne\Resume\Models;
 
 use Model;
-use RainLab\Translate\Behaviors\TranslatableModel;
-use System\Behaviors\SettingsModel;
 
 class Settings extends Model
 {
     public $implement = [
-        SettingsModel::class,
-        TranslatableModel::class
+        'System.Behaviors.SettingsModel',
+        '@RainLab.Translate.Behaviors.TranslatableModel'
     ];
 
     public $settingsCode = 'magiczne_resume_settings';
