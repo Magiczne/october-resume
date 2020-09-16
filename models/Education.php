@@ -4,7 +4,6 @@ use Illuminate\Support\Carbon;
 use October\Rain\Database\Model;
 use October\Rain\Database\Traits\Sortable;
 use October\Rain\Database\Traits\Validation;
-use RainLab\Translate\Behaviors\TranslatableModel;
 
 /**
  * Class Education
@@ -28,7 +27,7 @@ class Education extends Model
      * @var array
      */
     public $implement = [
-        TranslatableModel::class
+        '@RainLab.Translate.Behaviors.TranslatableModel'
     ];
 
     /**
