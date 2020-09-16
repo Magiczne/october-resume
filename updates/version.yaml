@@ -6,3 +6,5 @@
     - create_magiczne_resume_languages_table.php
     - create_magiczne_resume_socials_table.php
     - create_magiczne_resume_info_table.php
+1.0.3:
+    - FIX: RainLab.Translate plugin shouldn't be required
