@@ -1,0 +1,13 @@
+{
+  "name": "magiczne/resume-plugin",
+  "version": "1.1.0",
+  "type": "october-plugin",
+  "description": "Create simple resume with OctoberCMS",
+  "homepage": "https://github.com/Magiczne/october-resume",
+  "keywords": ["october", "octobercms", "resume"],
+  "require": {
+    "php": "^7.1",
+    "composer/installers": "~1.0"
+  },
+  "minimum-stability": "dev"
+}
